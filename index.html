@@ -24,6 +24,7 @@ Learn more about me and my work" /> <!-- for search engine optimization -->
 <li><a href="#about">About</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#contact">Contact</a></li>
+</ul>
 </nav>
 
 <main>
@@ -81,6 +82,26 @@ Each one helped me learn and get better at HTML and CSS.</p>
 <section id="contact" class="content-box">
 <h2>Contact</h2>
 <p>Contact me if you would like to know more.</p>
+
+<form>
+<label for="name">Full Name: *</label>
+<input type="text" id="name" name="name" placeholder="First Last" required
+aria-required="true" />
+
+<label for="email">Email: *</label>
+<input type="email" id="email" name="email" placeholder="example@email.com" required
+aria-required="true" />
+
+<label for="subject">Subject: </label>
+<input type="text" id="subject" name="subject" />
+
+<label for="message">Message: </label>
+<textarea id="message" name="message" rows="5" placeholder="What would you like to know?"></textarea>
+
+<input type="submit" value="Submit" />
+
+</form>
+
 </section>
 
 </main>

@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	background: linear-gradient(to right, #D6E6FF, #F6F8FC);
 }
-
+/* Header */
 header {
 	text-align: center;
 	font-size: 2em;
@@ -13,12 +13,13 @@ header {
 	background-color: #4B2A73;
 	color: #FFFFFF;
 }
-
+/* Nav */
 nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	display: flex;
+	gap: 5px;
 	justify-content: center;
 	background-color: #3C4A73
 }
@@ -40,6 +41,12 @@ nav ul li a:hover {
 	color: #00332C;
 	border-radius: 4px;
 }
+/* Main */
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 
 main section {
 	padding: 20px;
@@ -48,6 +55,7 @@ main section {
 	border: 1px solid #C5E1A5;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+/* Footer */
 footer {
 	font-size: 0.8em;
 	text-align: center;
@@ -70,7 +78,7 @@ footer {
 
 table {
 	width: 100%;
-	border-collapse;
+	border-collapse: collapse;
 	margin-top: 20px;
 }
 caption {
@@ -86,4 +94,100 @@ text-align: left;
 
 thead th {
 background-color: #E1E8F9;
+}
+/* Contact */
+#contact {
+	margin: 20px auto;          
+	max-width: 800px;         
+	width: 100%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+form input, form textarea {
+	transition: border-color 0.3s ease;
+	border: 1px solid #CCCCCC;
+}
+
+form input:focus,
+form textarea:focus,
+form input:hover,
+form textarea:hover {
+    outline: none;
+    border-color: #5567A3;
+}
+
+form input[type="submit"] {
+  transition: background-color 0.3s ease;
+}
+form input[type="submit"]:hover {
+  background-color: #5567A3;   
+  transform: scale(1.03);
+}
+
+
+/* Phone */
+@media (max-width: 599px) {
+  main {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+  nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+  }
+  #contact form {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 10px;
+	  }
+}
+
+
+/* Tablet  */
+@media (min-width: 600px) and (max-width: 900px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    #contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Desktop  */
+@media (min-width: 901px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
