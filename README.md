@@ -1,33 +1,31 @@
-# My Personal Website
+# Project Title: Horvia3887
+
+## Description
+Horvia3887 is a personal website designed to showcase my portfolio, interests, and projects. It serves as a digital resume and a platform to share my journey in web development. The website features a clean and modern design, making it easy for visitors to navigate and learn more about me.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
-## Introduction
-A brief introduction to your personal website. Explain what the website is about, its purpose, and what visitors can expect to find.
+## Features
+- Responsive design that adapts to various screen sizes
+- Portfolio section showcasing my projects
+- Contact form for inquiries and feedback
+- Links to my social media profiles
 
 ## Technologies Used
-List the technologies and tools you used to build your website. For example:
 - HTML5
 - CSS3
 - JavaScript (if applicable)
-- Any frameworks or libraries (e.g., Bootstrap)
-
-## Features
-Highlight the main features of your website. For example:
-- Responsive design for mobile and desktop
-- Interactive elements (if any)
-- Sections like About Me, Portfolio, Contact
+- [Any libraries or frameworks you used, e.g., Bootstrap, jQuery]
 
 ## Installation
-Provide instructions for anyone who wants to clone or run your project locally. This might include:
-1. Clone the repository
+To set up this project locally, follow these steps:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/c-vial/horvia3887.github.io
